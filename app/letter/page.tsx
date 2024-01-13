@@ -29,7 +29,7 @@ export default function Letter() {
         {process.env.NEXT_PUBLIC_INVITATION_NAME}&apos;s Birthday Party
       </h1>
       <div
-        className={`font-letter md:mt-10 mt-24 leading-8 font-semibold p-10 shadow-[35px_35px_60px_-15px_rgba(0,0,0,0.3)] sm:w-screen h-full md:h-[1000px] md:w-[736px] ${styles.background}`}
+        className={`font-letter md:mt-10 mt-24 max-[428px]:mt-40 leading-8 font-semibold p-10 shadow-[35px_35px_60px_-15px_rgba(0,0,0,0.3)] sm:w-screen h-full md:h-[1000px] md:w-[736px] ${styles.background}`}
       >
         <div className="flex justify-center items-center">
           <Image src="/hogwarts.png" width={250} height={250} alt="Logo" />
