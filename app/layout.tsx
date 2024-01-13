@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Birthday Invitation',
+  title: `${process.env.NEXT_PUBLIC_INVITATION_NAME}'s Birthday Party`,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

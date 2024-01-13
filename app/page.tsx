@@ -57,7 +57,9 @@ export default function Home() {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      <h1 className="font-hp absolute top-10 text-5xl md:text-7xl text-center leading-[4rem]">Birthday Invitation</h1>
+      <h1 className="font-hp absolute top-10 text-5xl md:text-7xl text-center leading-[4rem]">
+        {process.env.NEXT_PUBLIC_INVITATION_NAME}&apos;s Birthday Party
+      </h1>
 
       <p className={`mt-10 font-hp text-lg transition-opacity duration-[3s] ${!showHint ? 'opacity-0' : ''} `}>
         Hint: Click on the envelope

@@ -25,7 +25,9 @@ export default function Letter() {
       transition={{ duration: 1.5 }}
       className="flex flex-col items-center md:p-24 p-5 sm:p-10 min-h-screen "
     >
-      <h1 className="font-hp absolute top-10 text-5xl md:text-7xl text-center leading-[4rem]">Birthday Invitation</h1>
+      <h1 className="font-hp absolute top-10 text-5xl md:text-7xl text-center leading-[4rem]">
+        {process.env.NEXT_PUBLIC_INVITATION_NAME}&apos;s Birthday Party
+      </h1>
       <div
         className={`font-letter md:mt-10 mt-24 leading-8 font-semibold p-10 shadow-[35px_35px_60px_-15px_rgba(0,0,0,0.3)] sm:w-screen h-full md:h-[1000px] md:w-[736px] ${styles.background}`}
       >
