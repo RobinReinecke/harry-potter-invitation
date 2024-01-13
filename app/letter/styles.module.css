@@ -1,0 +1,7 @@
+.background {
+  background-image: url('../../public/letter.jpg');
+  background-repeat: repeat-y;
+  background-position: top;
+  /* height: 1000px;
+  width: 736px; */
+}
