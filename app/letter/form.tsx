@@ -12,6 +12,7 @@ export default function Form() {
     setIsLoading(true);
     await callResend(email);
     setEmailSent();
+    setIsSent(true);
     setIsLoading(false);
   };
 
